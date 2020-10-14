@@ -32,6 +32,7 @@
     "prettier/prettier": "error",
     "camelcase": "off",
     "class-methods-use-this": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
