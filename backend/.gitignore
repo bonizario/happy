@@ -1,2 +1,9 @@
+# dependencies
 /node_modules
+
+# sqlite database
 /**/*.sqlite
+
+# tmp files
+/tmp/*
+!/tmp/.gitkeep
