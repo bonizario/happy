@@ -7,6 +7,28 @@ export const Container = styled.div`
 
   position: relative;
   display: flex;
+
+  & .map-popup .leaflet-popup-content-wrapper {
+    background-color: var(--color-white);
+    border-radius: 2rem;
+    box-shadow: none;
+    height: 6.4rem;
+  }
+
+  & .map-popup .leaflet-popup-content {
+    color: var(--color-text-title);
+    font: 700 2rem/2.7rem Nunito, sans-serif;
+    margin: 1.2rem 1.2rem 1.2rem 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .map-popup .leaflet-popup-tip-container {
+    display: none;
+    visibility: hidden;
+  }
 `;
 
 export const SideBar = styled.aside`
@@ -56,5 +78,21 @@ export const CreateOrphanage = styled(Link)`
 
   &:hover {
     background: var(--color-blue-hover);
+  }
+`;
+
+export const OrphanageDetail = styled(Link)`
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  background-color: var(--color-blue);
+  transition: background-color 250ms;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: var(--color-text-title);
   }
 `;
