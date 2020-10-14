@@ -67,7 +67,7 @@ Os layouts da aplicação estão disponíveis no Figma: [Web](http://figma.com/f
 
 <br />
 
-# 💭 Como contribuir
+## 💭 Como contribuir
 
 Caso queira contribuir, seja corrigindo bugs, adicionando comentários ou novas features, você pode seguir esse tutorial abaixo:
 
@@ -83,13 +83,13 @@ _Caso tenha alguma dúvida, confira este [guia de como contribuir no GitHub](htt
 
 <br />
 
-# 📝 License
+## 📝 License
 
 Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bonizario/happy/blob/master/LICENSE) para mais informações.
 
 <br />
 
-# 📮 Entre em contato
+## 📮 Entre em contato
 
 **Linkedin**: https://www.linkedin.com/in/gabriel-bonizario/
 
