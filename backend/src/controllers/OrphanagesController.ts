@@ -4,6 +4,14 @@ import { getRepository } from 'typeorm';
 import Orphanage from '../entities/Orphanage';
 
 class OrphanagesController {
+  public async index(request: Request, response: Response) {
+    const orphanagesRepository = getRepository(Orphanage);
+
+    const orphanages = await orphanagesRepository.find();
+
+    return response.json(orphanages);
+  }
+
   public async create(request: Request, response: Response) {
     const {
       name,
