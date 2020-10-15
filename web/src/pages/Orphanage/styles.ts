@@ -1,4 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+interface IOpeningDetails {
+  openOnWeekends: boolean;
+}
 
 export const Container = styled.div`
   height: 100vh;
@@ -88,7 +92,7 @@ export const OrphanageDetails = styled.div`
   }
 `;
 
-export const OpeningDetails = styled.section`
+export const OpeningDetails = styled.section<IOpeningDetails>`
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
@@ -118,6 +122,20 @@ export const OpeningDetails = styled.section`
       border: 1px solid var(--color-green-medium);
       color: var(--color-green);
     }
+
+    ${props =>
+      !props.openOnWeekends &&
+      css`
+        &:last-child {
+          background: linear-gradient(
+            154.16deg,
+            var(--color-red-low) 7.85%,
+            var(--color-white) 91.03%
+          );
+          border: 1px solid var(--color-pink-light);
+          color: var(--color-pink);
+        }
+      `}
 
     > svg {
       display: block;

@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --color-blue-low: #D1EDF2;
     --color-yellow: #FFD666;
     --color-pink: #FF669D;
+    --color-pink-light: #FFBCD4;
     --color-red-low: #FFE4EE;
     --color-green: #37C77F;
     --color-green-hover: #3EE08F;

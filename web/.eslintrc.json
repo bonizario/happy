@@ -30,8 +30,12 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "comma-dangle": "off",
+    "camelcase": "off",
+    "indent": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
     "arrow-parens": "off",
+    "comma-dangle": "off",
     "react/prop-types": "off",
     "object-curly-newline": "off",
     "react/jsx-one-expression-per-line": "off",
