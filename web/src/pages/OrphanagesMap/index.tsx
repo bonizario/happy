@@ -1,10 +1,9 @@
 import React from 'react';
 import { FiPlus, FiArrowRight } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
-import Leaflet from 'leaflet';
-import 'leaflet/dist/leaflet.css';
 
 import mapMarkerImg from '../../images/map-marker.svg';
+import mapIcon from '../../utils/mapIcon';
 import {
   Container,
   SideBar,
@@ -13,13 +12,6 @@ import {
   CreateOrphanage,
   OrphanageDetail,
 } from './styles';
-
-const mapIcon = Leaflet.icon({
-  iconUrl: mapMarkerImg,
-  iconSize: [64, 72],
-  iconAnchor: [32, 72],
-  popupAnchor: [180, 4],
-});
 
 const OrphanagesMap: React.FC = () => (
   <Container className="noselect">
@@ -54,14 +46,14 @@ const OrphanagesMap: React.FC = () => (
           maxWidth={240}
         >
           Lar das meninas
-          <OrphanageDetail to="/">
+          <OrphanageDetail to="/orphanages/1">
             <FiArrowRight size={20} color="var(--color-white)" />
           </OrphanageDetail>
         </Popup>
       </Marker>
     </Map>
 
-    <CreateOrphanage to="">
+    <CreateOrphanage to="/orphanages/create">
       <FiPlus size={32} color="#ffffff" />
     </CreateOrphanage>
   </Container>

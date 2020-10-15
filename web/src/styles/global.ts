@@ -4,15 +4,20 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --color-gradient: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
     --color-white: #FFFFFF;
+    --color-gray: #DDE3F0;
     --color-blue: #15C3D6;
+    --color-blue-dark: #12AFCB;
     --color-blue-light: #96FEFF;
     --color-blue-hover: #17D6EB;
-    --color-yellow: #FFD666;
-    --color-green: #37C77F;
-    --color-pink: #FF669D;
-    --color-green-low: #EDFFF6;
+    --color-blue-dashed: #96D2F0;
     --color-blue-low: #D1EDF2;
+    --color-yellow: #FFD666;
+    --color-pink: #FF669D;
     --color-red-low: #FFE4EE;
+    --color-green: #37C77F;
+    --color-green-hover: #3EE08F;
+    --color-green-low: #EDFFF6;
+    --color-green-medium: #A1E9C5;
     --color-text-button: #8D734B;
     --color-text-title: #0089A5;
     --color-text-title-dark: #4D6F80;
@@ -47,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
+    color: inherit;
     text-decoration: none;
   }
 
@@ -66,6 +72,7 @@ const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
+    background: none;
   }
 
   strong {
