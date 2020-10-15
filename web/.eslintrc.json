@@ -31,8 +31,9 @@
   "rules": {
     "prettier/prettier": "error",
     "comma-dangle": "off",
-    "object-curly-newline": "off",
+    "arrow-parens": "off",
     "react/prop-types": "off",
+    "object-curly-newline": "off",
     "react/jsx-one-expression-per-line": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "react-hooks/rules-of-hooks": "error",

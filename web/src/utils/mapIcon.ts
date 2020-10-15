@@ -6,7 +6,7 @@ const mapIcon = L.icon({
 
   iconSize: [58, 68],
   iconAnchor: [29, 68],
-  popupAnchor: [0, -60],
+  popupAnchor: [180, 8],
 });
 
 export default mapIcon;
