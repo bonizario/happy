@@ -83,12 +83,35 @@ export const InputBlock = styled.div`
     line-height: 2.8rem;
   }
 
-  > button {
+  [type='file'] {
+    visibility: hidden;
+    display: none;
+  }
+`;
+
+export const ImagesContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.6rem;
+
+  > img {
     width: 100%;
-    height: 6.4rem;
-    background: var(--color-input);
-    border: 1px dashed var(--color-blue-dashed);
+    height: 96px;
+    object-fit: cover;
     border-radius: 2rem;
+  }
+
+  > label {
+    width: 9.6rem;
+    height: 9.6rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    background-color: var(--color-input);
+    border: 1px dashed var(--color-blue-dashed);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -104,7 +127,7 @@ export const ButtonSelect = styled.div`
 
     &.active {
       background-color: var(--color-green-low);
-      border: 1px solid var(--color-green-medium);
+      border: 1px solid var(--color-green);
       color: var(--color-green);
     }
 
