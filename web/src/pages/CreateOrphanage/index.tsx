@@ -78,7 +78,16 @@ const CreateOrphanage: React.FC = () => {
 
       history.push('/app');
     },
-    [position, name, about, instructions, opening_hours, open_on_weekends]
+    [
+      position,
+      name,
+      about,
+      instructions,
+      opening_hours,
+      open_on_weekends,
+      images,
+      history,
+    ]
   );
 
   return (
@@ -203,5 +212,3 @@ const CreateOrphanage: React.FC = () => {
 };
 
 export default CreateOrphanage;
-
-// return `https://a.tile.openstreetmap.org/${z}/${x}/${y}.png`;
