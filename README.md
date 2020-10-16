@@ -67,9 +67,59 @@ Os layouts da aplicação estão disponíveis no Figma: [Web](http://figma.com/f
 
 <br />
 
+## 🤔 Como executar
+
+Para clonar esse repositório pelo terminal, é necessário possuir o [Git](https://git-scm.com/) instalado em sua máquina.
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/Bonizario/happy.git
+
+# Entre na pasta do projeto
+$ cd happy
+```
+
+<br />
+
+Para instalar as dependências e executar o projeto, é necessário possuir o [Node.js](https://nodejs.org/pt-br/) instalado em sua máquina, bem como um gerenciador de pacotes: [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/).
+
+### Usando Yarn
+```bash
+# Instale as dependências do back-end
+$ cd backend && yarn
+
+# Executando a api em Node.js
+$ yarn dev:server
+
+# Instale as dependências do front-end web
+$ cd ../web && yarn
+
+# Executando o front-end em ReactJS
+$ yarn start
+```
+
+<br />
+
+### Usando npm
+```bash
+# Instale as dependências do back-end
+$ cd backend && npm install
+
+# Executando a api em Node.js
+$ npm run dev:server
+
+# Instale as dependências do front-end web
+$ cd ../web && npm install
+
+# Executando o front-end em ReactJS
+$ npm start
+```
+
+<br />
+
 ## 💭 Como contribuir
 
-Caso queira contribuir, seja corrigindo bugs, adicionando comentários ou novas features, você pode seguir esse tutorial abaixo:
+Caso queira contribuir, seja corrigindo bugs, adicionando comentários ou novas features, você pode seguir o seguinte tutorial:
 
 - Faça um **[fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo)** desse repositório
 - **[Clone](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository)** o repositório que você fez o fork em seu computador
@@ -95,9 +145,9 @@ Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bon
 
 <br />
 
-Desenvolvido por **Gabriel Bonizário** 👋🏻
-
 ---
+
+Desenvolvido por **Gabriel Bonizário** 👋🏻
 
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
