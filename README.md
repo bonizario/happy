@@ -88,13 +88,16 @@ Para instalar as dependências e executar o projeto, é necessário possuir o [N
 # Instale as dependências do back-end
 $ cd backend && yarn
 
-# Executando a api em Node.js
+# Execute as migrations do TypeORM
+$ yarn typeorm migration:run
+
+# Execute a api em Node.js
 $ yarn dev:server
 
 # Instale as dependências do front-end web
 $ cd ../web && yarn
 
-# Executando o front-end em ReactJS
+# Execute o front-end em ReactJS
 $ yarn start
 ```
 
@@ -105,13 +108,16 @@ $ yarn start
 # Instale as dependências do back-end
 $ cd backend && npm install
 
-# Executando a api em Node.js
+# Execute as migrations do TypeORM
+$ npm run typeorm migration:run
+
+# Execute a api em Node.js
 $ npm run dev:server
 
 # Instale as dependências do front-end web
 $ cd ../web && npm install
 
-# Executando o front-end em ReactJS
+# Execute o front-end em ReactJS
 $ npm start
 ```
 
