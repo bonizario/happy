@@ -7,20 +7,39 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Bonizario/happy?color=29B6D1">
+  <a href="https://github.com/Bonizario/happy/">
+    <img
+      alt="GitHub language count"
+      src="https://img.shields.io/github/languages/count/Bonizario/happy?color=29B6D1"
+    />
+  </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/bonizario/happy?color=29B6D1">
+  <a href="https://github.com/Bonizario/happy/">
+    <img
+      alt="Repository size"
+      src="https://img.shields.io/github/repo-size/bonizario/happy?color=29B6D1"
+    />
+  </a>
 
   <a href="https://www.linkedin.com/in/gabriel-bonizario/">
-    <img alt="Made by gabriel-bonizario" src="https://img.shields.io/badge/made%20by-gabriel%20bonizario-29B6D1">
+    <img
+      alt="Linkedin"
+      src="https://img.shields.io/badge/Linkedin-gabriel--bonizario-29B6D1?style=flat-square&logo=Linkedin&logoColor=white"
+    />
   </a>
 
   <a href="https://github.com/bonizario/happy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/bonizario/happy?color=6CDCF2">
+    <img
+      alt="GitHub last commit"
+      src="https://img.shields.io/github/last-commit/bonizario/happy?color=29B6D1"
+    />
   </a>
 
   <a href="https://github.com/Bonizario/happy/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/bonizario/happy?color=FFD666">
+    <img
+      alt="License"
+      src="https://img.shields.io/github/license/bonizario/happy?color=FFD666"
+    />
   </a>
 </p>
 
