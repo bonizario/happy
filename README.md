@@ -51,16 +51,6 @@ Este projeto foi desenvolvido usando Node.js, ReactJS e React Native, durante a 
 
 <br />
 
-## 💻 Features
-
-- Localizar orfanatos próximos pelo mapa;
-- Visualizar as informações e horários de visita de um orfanato;
-- Ver rotas no Google Maps até um orfanato;
-- Entrar em contato via _whatsapp_;
-- Cadastrar novas instituições;
-
-<br />
-
 ## 🎨 Layout
 
 Os layouts da aplicação estão disponíveis no Figma: [Web](http://figma.com/file/X5vjP69Y0H9C8aa5QqorzH/Happy-Web), [Mobile](https://www.figma.com/file/5lunlSxDHchxU312BJntQL/Happy-Mobile).
@@ -79,10 +69,14 @@ Os layouts da aplicação estão disponíveis no Figma: [Web](http://figma.com/f
 ### Back-end
 - [Node.js](https://nodejs.org/pt-br/)
 - [Express](https://github.com/expressjs/express)
+- [TypeORM](https://typeorm.io/)
 - [Typescript](https://www.typescriptlang.org/)
 
 ### Ambiente de desenvolvimento
-- [VS Code][vc] com [EditorConfig][vceditconfig], [ESLint][vceslint] e [Prettier][vcprettier]
+- [VS Code](https://code.visualstudio.com/)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://prettier.io/)
 
 <br />
 
@@ -100,9 +94,16 @@ $ cd happy
 
 <br />
 
-Para instalar as dependências e executar o projeto, é necessário possuir o [Node.js](https://nodejs.org/pt-br/) instalado em sua máquina, bem como um gerenciador de pacotes: [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/).
+Para instalar as dependências e executar o projeto, é necessário possuir o [Node.js](https://nodejs.org/pt-br/) instalado em sua máquina, bem como um gerenciador de pacotes: [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/).
 
-### Usando Yarn
+<table style="width:100%;">
+<tr>
+<td align="center"> <strong>Usando Yarn</strong> </td> <td align="center"> <strong>Usando npm</strong> </td>
+</tr>
+<tr>
+<td>
+
+
 ```bash
 # Instale as dependências do back-end
 $ cd backend && yarn
@@ -120,9 +121,11 @@ $ cd ../web && yarn
 $ yarn start
 ```
 
-<br />
 
-### Usando npm
+</td>
+<td>
+
+
 ```bash
 # Instale as dependências do back-end
 $ cd backend && npm install
@@ -139,6 +142,10 @@ $ cd ../web && npm install
 # Execute o front-end em ReactJS
 $ npm start
 ```
+
+
+</td>
+</table>
 
 <br />
 
@@ -173,8 +180,3 @@ Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bon
 ---
 
 Desenvolvido por **Gabriel Bonizário** 👋🏻
-
-[vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[vcprettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
