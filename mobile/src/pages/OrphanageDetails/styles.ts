@@ -4,11 +4,11 @@ import { Dimensions } from 'react-native';
 import MapView from 'react-native-maps';
 
 interface IScheduleItem {
-  color?: 'blue' | 'green';
+  color?: 'blue' | 'green' | 'red';
 }
 
 interface IScheduleText {
-  color?: 'blue' | 'green';
+  color?: 'blue' | 'green' | 'red';
 }
 
 export const Container = styled.ScrollView`
@@ -57,7 +57,7 @@ export const StyledMapView = styled(MapView)`
   height: 150px;
 `;
 
-export const RoutesContainer = styled.View`
+export const RoutesContainer = styled(RectButton)`
   padding: 16px;
   align-items: center;
   justify-content: center;
@@ -102,6 +102,15 @@ export const ScheduleItem = styled.View<IScheduleItem>`
       border-color: #a1e9c5;
       background-color: #edfff6;
     `}
+
+  ${props =>
+    props.color === 'red' &&
+    css`
+      border-width: 1px;
+      border-radius: 20px;
+      border-color: #ffbcd4;
+      background-color: #fef6f9;
+    `}
 `;
 
 export const ScheduleText = styled.Text<IScheduleText>`
@@ -109,7 +118,24 @@ export const ScheduleText = styled.Text<IScheduleText>`
   margin-top: 20px;
   line-height: 24px;
   font-family: 'Nunito_600SemiBold';
-  color: ${props => (props.color === 'blue' ? '#5c8599' : '#37c77f')};
+
+  ${props =>
+    props.color === 'blue' &&
+    css`
+      color: #5c8599;
+    `}
+
+  ${props =>
+    props.color === 'green' &&
+    css`
+      color: #37c77f;
+    `}
+
+  ${props =>
+    props.color === 'red' &&
+    css`
+      color: #ff669d;
+    `}
 `;
 
 export const ContactButton = styled(RectButton)`

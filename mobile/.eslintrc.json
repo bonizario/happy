@@ -31,6 +31,7 @@
   "rules": {
     "prettier/prettier": "error",
     "no-unused-vars": "off",
+    "wrap-iife": ["error", "inside"],
     "@typescript-eslint/no-unused-vars": ["off"],
     "@typescript-eslint/no-unused-vars-experimental": ["error"],
     "indent": "off",
