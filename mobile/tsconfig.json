@@ -16,8 +16,11 @@
             "padding-vertical",
             "margin-vertical",
             "margin-horizontal",
+            "text-align-vertical",
+            "text-align-horizontal",
             "tint-color",
             "aspect-ratio",
+            "resize-mode",
             "elevation"
           ]
         }
