@@ -175,8 +175,6 @@ Esse projeto está sob a licença MIT. Consulte [LICENSE](https://github.com/Bon
 
 **Linkedin**: https://www.linkedin.com/in/gabriel-bonizario/
 
-<br />
-
 ---
 
 Desenvolvido por **Gabriel Bonizário** 👋🏻
